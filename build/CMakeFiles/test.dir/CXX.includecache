@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cuser/Justin/CSV_Parse/include/testing.h
+fstream
+-
+iostream
+-
+vector
+-
+
+/home/cuser/Justin/CSV_Parse/test/main.cpp
+../include/testing.h
+/home/cuser/Justin/CSV_Parse/include/testing.h
+cassert
+-
+

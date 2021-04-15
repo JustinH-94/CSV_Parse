@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wall -Wextra -Werror -pthread    CMakeFiles/parse-runner.dir/src/main.cpp.o  -o parse-runner -rdynamic 

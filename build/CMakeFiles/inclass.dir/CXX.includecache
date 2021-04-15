@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cuser/Justin/CSV_Parse/src/fib.cpp
+fib.hpp
+/home/cuser/Justin/CSV_Parse/src/fib.hpp
+fstream
+-
+iostream
+-
+
+/home/cuser/Justin/CSV_Parse/src/fib.hpp
+vector
+-
+string
+-
+fstream
+-
+
